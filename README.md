@@ -22,18 +22,24 @@ Packaging : Poetry (추가 패키지: hypercorn, h3, starlette, pyscript)
 > poetry install
 
 src/server.py를 실행함<br />
+
 > HTTP/1.1
 >> poetry run hypercorn server_app:run
+
 > HTTP/2
 >> poetry run hypercorn --certfile cert/localhost.crt --keyfile cert/localhost.key --bind localhost:8000 server_app:run
+
 > HTTP/2 & HTTP/3
 >> poetry run hypercorn --quic-bind localhost:4433 --certfile cert/localhost.crt --keyfile cert/localhost.key --bind localhost:8000 server_app:run
 
 Chrome browser로 서버에 접속함<br />
+
 > HTTP/1.1
 >> http://127.0.0.1:8000/membership_api/
+
 > HTTP/2
 >> https://127.0.0.1:8000/membership_api/ 
+
 > HTTP/3
 >> https://127.0.0.1:4433/membership_api/ 
 
