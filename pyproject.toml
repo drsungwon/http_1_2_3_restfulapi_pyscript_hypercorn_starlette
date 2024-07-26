@@ -11,6 +11,7 @@ pyscript = "^0.2.5"
 hypercorn = "^0.17.3"
 starlette = "^0.38.1"
 h3 = "^3.7.7"
+aioquic = "^1.2.0"
 
 
 [build-system]
