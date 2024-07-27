@@ -57,7 +57,7 @@ Chrome browser로 서버에 접속함<br />
 >>>> https://127.0.0.1:4433/ 
 
 >>> Linux 경우:
->>>> google-chrome --enable-quic --allow-insecure-localhost --origin-to-force-quic-on=127.0.0.1:4433 --ignore-certificate-errors-spki-list="Vy/mwFlqWXlxva7JH2xXR0bShco74LOb7xG1dFlZlrA="
+>>>> google-chrome --enable-quic --allow-insecure-localhost --origin-to-force-quic-on=127.0.0.1:4433 --ignore-certificate-errors-spki-list="Vy/mwFlqWXlxva7JH2xXR0bShco74LOb7xG1dFlZlrA=" <br /><br />
 >>>> https://127.0.0.1:4433/ 
 
 화면 위쪽의 “Please wait, program is starting …” 문구가 다음처럼 바뀌기를 기다림<br />
